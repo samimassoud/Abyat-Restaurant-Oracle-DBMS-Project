@@ -1,0 +1,45 @@
+.homemanager{
+ -fx-background-radius: 20px;
+ -fx-background-color:#ffffff;
+ -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+.Buttonmanager{
+-fx-background-radius: 40px;
+-fx-background-color:#647D8c;
+
+
+}
+.Buttonmanager:hover{
+-fx-background-color:#ffffff;
+
+}
+.textfildserch{
+ -fx-border-width: 0px 0px 2px 0px;
+ -fx-background-color: transparent;
+ -fx-border-color :#647D8c;
+}
+.buttonsearch{
+ -fx-background-radius: 20px;
+ -fx-background-color:#647D8c;
+ -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+.buttonsearch:hover{
+ -fx-scale-y: 1.1;
+ -fx-scale-x: 1.1;
+ -fx-background-color:#85C1E9 ;
+
+}
+.buttonadddeletedit{
+ -fx-background-radius: 10px;
+ -fx-background-color:#647D8c;
+ -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}
+.buttonadddeletedit:hover{
+ -fx-scale-y: 1.1;
+ -fx-scale-x: 1.1;
+ -fx-background-color:#85C1E9 ;
+
+}
+.HOMETBLE{
+ -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 0);
+}

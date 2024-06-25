@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="636.0" prefWidth="587.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Addhall">
+   <children>
+      <TextField layoutX="91.0" layoutY="60.0" promptText="EID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <TextField layoutX="91.0" layoutY="154.0" promptText="Mint" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <TextField layoutX="91.0" layoutY="205.0" promptText="Lname" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <Label layoutX="29.0" layoutY="65.0" text="EID:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="159.0" text="Mint:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="210.0" text="Lname:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="325.0" text="SEX:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="123.0" fitWidth="140.0" layoutX="373.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@add-file.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="218.0" layoutY="14.0" prefHeight="30.0" prefWidth="150.0" text="Add employees" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="482.00006103515625" endY="3.814697265625E-6" layoutX="101.0" layoutY="51.0" startX="-100.0" stroke="#647d8c" />
+      <Button layoutX="409.0" layoutY="545.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" styleClass="buttonsearch" stylesheets="@cssadddeletedit.css" text="Add" textFill="WHITE" />
+      <ComboBox layoutX="93.0" layoutY="321.0" prefHeight="26.0" prefWidth="84.0" />
+      <DatePicker layoutX="93.0" layoutY="360.0" prefHeight="26.0" prefWidth="163.0" />
+      <Label layoutX="14.0" layoutY="364.0" prefHeight="18.0" prefWidth="70.0" text="Birthdate:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="272.0" text="Age:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="91.0" layoutY="267.0" promptText="Age" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <ComboBox layoutX="315.0" layoutY="321.0" prefWidth="150.0" />
+      <Label layoutX="240.0" layoutY="325.0" text="Function:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="91.0" layoutY="103.0" promptText="Mint" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <Label layoutX="18.0" layoutY="108.0" text="FName:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="155.0" layoutY="457.0" promptText="CID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <TextField layoutX="346.0" layoutY="457.0" promptText="HID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <TextField layoutX="155.0" layoutY="517.0" promptText="WID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <TextField layoutX="155.0" layoutY="579.0" promptText="KID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <Line endX="483.2928466796875" endY="-3.0517578125E-5" layoutX="101.0" layoutY="501.0" startX="-100.0" />
+      <Line endX="296.0" endY="49.20001220703125" layoutX="112.0" layoutY="512.0" startX="-111.00000762939453" startY="50.20001220703125" />
+      <Line endX="127.09283447265625" endY="-31.79998779296875" layoutX="459.0" layoutY="591.0" startX="101.39996337890625" startY="-31.79998779296875" />
+      <Label layoutX="63.0" layoutY="462.0" text="Casher:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="522.0" text="Waiter:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="584.0" text="Trainee:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="481.09991455078125" endY="-3.0517578125E-5" layoutX="103.0" layoutY="449.0" startX="-100.0" />
+      <Label layoutX="14.0" layoutY="412.0" prefHeight="26.0" prefWidth="264.0" text="Fill in the blank with one of them:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="281.0" layoutY="416.0" prefHeight="18.0" prefWidth="163.0" text="Casher or waiter  or trainee: " textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

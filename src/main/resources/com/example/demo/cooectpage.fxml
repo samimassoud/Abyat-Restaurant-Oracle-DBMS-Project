@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="324.0" prefWidth="605.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.connect">
+   <children>
+      <ComboBox fx:id="sup_cmbox" layoutX="48.0" layoutY="122.0" prefWidth="150.0" promptText="Suppliers" />
+      <ComboBox fx:id="wh_cmbox" layoutX="401.0" layoutY="122.0" prefWidth="150.0" promptText="Warehouses" />
+      <Button fx:id="connectbtn" layoutX="227.0" layoutY="196.0" mnemonicParsing="false" onAction="#connect_bclicked" prefHeight="26.0" prefWidth="148.0" styleClass="buttonadddeletedit" stylesheets="@manager.css" text="Connect" textFill="WHITE" />
+      <Button fx:id="disconnectbtn" layoutX="227.0" layoutY="261.0" mnemonicParsing="false" onAction="#connect_bclicked" prefHeight="26.0" prefWidth="148.0" styleClass="buttonadddeletedit" stylesheets="@manager.css" text="Disconnect" textFill="WHITE" />
+      <Label layoutX="287.0" layoutY="232.0" text="OR:" textFill="#647d8c">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="199.0" layoutY="14.0" prefHeight="46.0" prefWidth="219.0" text="Connect" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Line endX="503.29998779296875" endY="1.52587890625E-5" layoutX="101.0" layoutY="69.0" startX="-100.0" stroke="#647d8c" />
+      <Label alignment="CENTER" layoutY="75.0" prefHeight="46.0" prefWidth="148.0" text="Suppliers:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="354.0" layoutY="75.0" prefHeight="46.0" prefWidth="148.0" text="WareHouse:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Line endX="499.492919921875" endY="1.52587890625E-5" layoutX="104.0" layoutY="173.0" startX="-104.00001525878906" startY="1.52587890625E-5" stroke="#647d8c" />
+   </children>
+</AnchorPane>

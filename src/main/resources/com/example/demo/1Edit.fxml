@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1100.0" style="-fx-background-color: #647D8c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ManagerController">
+    <children>
+        <AnchorPane layoutX="105.0" layoutY="65.0" prefHeight="527.0" prefWidth="982.0" styleClass="homemanager" stylesheets="@manager.css">
+            <children>
+                <Label alignment="CENTER" layoutX="370.0" layoutY="14.0" prefHeight="46.0" prefWidth="219.0" text="Hall" textFill="#647d8c">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Line endX="906.199951171875" layoutX="85.0" layoutY="74.0" startX="-84.9999771118164" stroke="#647d8c" />
+                <TableView fx:id="halltableview" layoutX="63.0" layoutY="107.0" onMouseClicked="#tableviewclicked" prefHeight="395.0" prefWidth="271.0">
+                    <columns>
+                        <TableColumn fx:id="hidc" prefWidth="135.0" text="HID" />
+                        <TableColumn fx:id="hnamec" prefWidth="135.0" text="Hname" />
+                    </columns>
+                </TableView>
+                <Button fx:id="gosearchbutton" layoutX="432.0" layoutY="246.0" mnemonicParsing="false" onAction="#gosearch" prefHeight="26.0" prefWidth="127.0" styleClass="buttonsearch" text="Search" textFill="WHITE" />
+                <TextField fx:id="hidtf" layoutX="414.0" layoutY="137.0" prefHeight="28.0" prefWidth="164.0" promptText="HID" styleClass="textfildserch" stylesheets="@manager.css" />
+                <Button fx:id="go_hall_add" layoutX="422.0" layoutY="416.0" mnemonicParsing="false" onAction="#goadd" prefHeight="26.0" prefWidth="148.0" styleClass="buttonadddeletedit" stylesheets="@manager.css" text="Go to Add Page" textFill="WHITE" />
+                <TextField fx:id="hnametf" layoutX="414.0" layoutY="189.0" prefHeight="28.0" prefWidth="164.0" promptText="HNAME" styleClass="textfildserch" stylesheets="@manager.css" />
+                <Label layoutX="432.0" layoutY="94.0" prefHeight="31.0" prefWidth="73.0" text="Search:" textFill="#647d8c">
+                    <font>
+                        <Font size="21.0" />
+                    </font>
+                </Label>
+                <Line endX="-123.3333740234375" endY="223.800048828125" layoutX="513.0" layoutY="302.0" startX="-123.3333740234375" startY="-227.5" stroke="#647d8c" />
+                <ImageView fitHeight="28.0" fitWidth="23.0" layoutX="401.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@magnifying-glass.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="113.0" fitWidth="177.0" layoutX="432.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@table.gif" />
+                    </image>
+                </ImageView>
+            <TextField fx:id="edithall_HIDTF" layoutX="790.0" layoutY="137.0" promptText="Hall ID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+            <TextField fx:id="edithall_HName" layoutX="790.0" layoutY="189.0" promptText="Hall name" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+            <TextField fx:id="edithall_KID" layoutX="790.0" layoutY="245.0" promptText="Kitchen ID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+            <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="817.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@edit.gif" />
+               </image>
+            </ImageView>
+            <TextField fx:id="edithall_MID" layoutX="790.0" layoutY="305.0" promptText="Manager ID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+            <Button fx:id="edithall_edit_btn" layoutX="791.0" layoutY="460.0" mnemonicParsing="false" onAction="#weshalledit_hall" prefHeight="26.0" prefWidth="148.0" styleClass="buttonadddeletedit" stylesheets="@manager.css" text="Edit" textFill="WHITE" />
+            <Button fx:id="delete_hall" layoutX="422.0" layoutY="460.0" mnemonicParsing="false" onAction="#godelete" prefHeight="26.0" prefWidth="148.0" styleClass="buttonadddeletedit" stylesheets="@manager.css" text="Delete" textFill="WHITE" />
+            <Line endX="-123.3333740234375" endY="223.800048828125" layoutX="832.0" layoutY="302.0" startX="-123.3333740234375" startY="-227.5" stroke="#647d8c" />
+            <Label layoutX="731.0" layoutY="91.0" prefHeight="31.0" prefWidth="73.0" text="Edit:" textFill="#647d8c">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            </children></AnchorPane>
+        <Button layoutX="18.0" layoutY="159.0" mnemonicParsing="false" onAction="#siginbuttononaction" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css" />
+        <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="5.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@316741304_1850431091984088_2968029368833723444_n.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="MID_Label" layoutX="907.0" layoutY="18.0" text="Hello mahmoud!" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="37.0" fitWidth="38.0" layoutX="852.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@account.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="18.0" layoutY="159.0" mnemonicParsing="false" onAction="#gotables" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+            <graphic>
+                <ImageView fx:id="goTables" fitHeight="36.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@dining-table.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutX="27.0" layoutY="209.0" text="Table" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Label>
+      <AnchorPane fx:id="logout" layoutX="17.0" layoutY="548.0" onMouseClicked="#logoutbtn" prefHeight="37.0" prefWidth="52.0" style="-fx-background-radius: 10;" styleClass="lablehome" stylesheets="@designhomepage.css">
+         <children>
+            <Label layoutX="38.0" layoutY="5.0" prefHeight="30.0" prefWidth="44.0" text="Log out" />
+            <Button layoutX="-3.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="37.0" styleClass="homeButton" stylesheets="@designhomepage.css" />
+            <ImageView fitHeight="33.0" fitWidth="21.0" layoutX="4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@1250678.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

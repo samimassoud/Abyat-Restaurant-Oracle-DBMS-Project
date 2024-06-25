@@ -1,0 +1,25 @@
+.buttonall{
+-fx-background-radius: 30px;
+   -fx-background-color:#647D8c;
+}
+.buttonall:hover {
+-fx-background-color: #45B39D;
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 15, 0, 0, 0);
+}
+
+.textlogo1{
+-fx-background-color: transparent;
+-fx-border-color :#647D8c;
+}
+.buttonall2{
+-fx-background-radius: 30px;
+   -fx-background-color:#647D8c;
+}
+.buttonall2:hover{
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+ -fx-background-color:#85C1E9 ;
+
+}

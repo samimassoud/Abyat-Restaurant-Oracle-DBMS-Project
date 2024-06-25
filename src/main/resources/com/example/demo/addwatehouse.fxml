@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="466.0" prefWidth="441.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.addd">
+   <children>
+      <TextField fx:id="add_wid" layoutX="91.0" layoutY="60.0" promptText="Warehouse ID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <TextField fx:id="add_wname" layoutX="91.0" layoutY="131.0" promptText="Warehouse Name" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <TextField fx:id="add_kid" layoutX="91.0" layoutY="205.0" promptText="Kitchen ID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <Label layoutX="29.0" layoutY="65.0" text="WID:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="136.0" text="WName:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="210.0" text="KID:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="282.0" text="MID:" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="123.0" fitWidth="140.0" layoutX="54.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@add-file.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="146.0" layoutY="14.0" prefHeight="30.0" prefWidth="150.0" text="Add Warehouse" textFill="#647d8c">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="340.0" layoutX="101.0" layoutY="51.0" startX="-100.0" stroke="#647d8c" />
+      <TextField fx:id="add_mid" layoutX="91.0" layoutY="277.0" promptText="Manager ID" styleClass="textfildadd" stylesheets="@cssadddeletedit.css" />
+      <Button fx:id="add_button" layoutX="241.0" layoutY="380.0" mnemonicParsing="false" onAction="#add_add" prefHeight="30.0" prefWidth="150.0" styleClass="buttonsearch" stylesheets="@cssadddeletedit.css" text="Add" textFill="WHITE" />
+   </children>
+</AnchorPane>

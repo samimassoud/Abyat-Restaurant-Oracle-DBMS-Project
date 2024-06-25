@@ -1,0 +1,74 @@
+.homeButton{
+ -fx-background-radius: 10px;
+ -fx-background-color: #647D8c;
+}
+.homeButton:hover {
+
+
+}
+
+.lablehome{
+-fx-background-color:#ffffff;
+}
+.lablehome:hover{
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 15, 0, 0, 0);
+
+}
+.finalButton{
+ -fx-background-radius: 10px;
+ -fx-background-color: black;
+}
+.finalButton:hover {
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 15, 0, 0, 0);
+
+}
+.radiusall{
+-fx-background-radius: 30px;
+-fx-background-color:#ffffff;
+-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 15, 0, 0, 0);
+}
+.radiusall:hover{
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+-fx-background-color: #647D8c;
+}
+.radiumiddle{
+-fx-background-radius: 10px;
+-fx-background-color:#ffffff;
+}
+.iteamstyle{
+-fx-background-radius: 30px;
+-fx-background-color:#ffffff;
+}
+.iteamstyle:hover{
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+}
+.ButtonPlusminus{
+-fx-background-radius: 10px;
+-fx-background-color:#ffffff;
+
+
+
+}
+.ButtonPlusminus:hover{
+-fx-scale-y: 1.1;
+-fx-scale-x: 1.1;
+ -fx-background-color: #ff4d4d;
+}
+.ButtonPlusminus2{
+ -fx-background-radius: 10px;
+ -fx-background-color:#ffffff;
+
+
+
+}
+.ButtonPlusminus2:hover{
+ -fx-scale-y: 1.1;
+ -fx-scale-x: 1.1;
+ -fx-background-color:  #4dff88;
+}

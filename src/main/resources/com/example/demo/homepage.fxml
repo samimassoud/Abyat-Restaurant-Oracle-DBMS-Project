@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HomeController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="1100.0" style="-fx-background-color: #647D8c;">
+         <children>
+            <Label fx:id="Hallnm" layoutX="9.0" layoutY="114.0" prefHeight="18.0" prefWidth="124.0" text="Hello mahmoud!" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font></Label>
+            <AnchorPane layoutX="142.0" layoutY="6.0" prefHeight="582.0" prefWidth="947.0" style="-fx-background-radius: 30; -fx-background-color: #ffffff;" styleClass="HOMEPAGE1" stylesheets="@design.css">
+               <children>
+                  <ScrollPane fitToWidth="true" focusTraversable="false" layoutX="5.0" layoutY="12.0" prefHeight="562.0" prefWidth="937.0" style="-fx-background-color: transparent;" styleClass="edge-to-edge">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="750.0" prefWidth="917.0" style="-fx-background-radius: 0; -fx-background-color: white;">
+                           <children>
+                              <Button fx:id="reciept_button" layoutX="857.0" layoutY="8.0" mnemonicParsing="false" onAction="#get_reciept" prefHeight="39.0" prefWidth="52.0" styleClass="finalButton" stylesheets="@designhomepage.css">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@cart-icon-png-white-11.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Label layoutX="8.0" layoutY="33.0" text="YUM!" textFill="#cf3939">
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="28.0" prefWidth="126.0" text="Welocome to ">
+                                 <font>
+                                    <Font size="19.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="28.0" fitWidth="33.0" layoutX="63.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@face-savouring-delicious-food_1f60b.png" />
+                                 </image>
+                              </ImageView>
+                              <AnchorPane layoutX="142.0" layoutY="84.0" onMouseClicked="#stypebtn" prefHeight="110.0" prefWidth="86.0" styleClass="radiusall" stylesheets="@designhomepage.css">
+                                 <children>
+                                    <Label layoutX="15.0" layoutY="75.0" text="sandwiches" />
+                                    <ImageView fitHeight="50.0" fitWidth="52.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@sandwich%20(1).png" />
+                                       </image></ImageView>
+                                 </children></AnchorPane>
+                              <AnchorPane layoutX="259.0" layoutY="84.0" onMouseClicked="#dtypebtn" prefHeight="110.0" prefWidth="86.0" styleClass="radiusall" stylesheets="@designhomepage.css">
+                                 <children>
+                                    <Label layoutX="26.0" layoutY="78.0" text="Drinks" />
+                                    <ImageView fitHeight="58.0" fitWidth="41.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="75.0" fitWidth="46.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@soft-drink.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                              <AnchorPane layoutX="377.0" layoutY="84.0" onMouseClicked="#mtypebtn" prefHeight="110.0" prefWidth="86.0" styleClass="radiusall" stylesheets="@designhomepage.css">
+                                 <children>
+                                    <Label layoutX="29.0" layoutY="78.0" text="Meals" />
+                                    <ImageView fitHeight="58.0" fitWidth="41.0" layoutX="22.0" layoutY="14.0" onMouseClicked="#mtypebtn" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="75.0" fitWidth="46.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@dinner.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                              <AnchorPane layoutX="495.0" layoutY="84.0" onMouseClicked="#gritypebtn" prefHeight="110.0" prefWidth="86.0" styleClass="radiusall" stylesheets="@designhomepage.css">
+                                 <children>
+                                    <Label layoutX="26.0" layoutY="78.0" text="Grills" />
+                                    <ImageView fitHeight="58.0" fitWidth="41.0" layoutX="23.0" layoutY="14.0" onMouseClicked="#gritypebtn" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="75.0" fitWidth="46.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@salad%20(1).png" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                              <AnchorPane layoutX="611.0" layoutY="84.0" onMouseClicked="#swetypebtn" prefHeight="110.0" prefWidth="86.0" styleClass="radiusall" stylesheets="@designhomepage.css">
+                                 <children>
+                                    <Label layoutX="28.0" layoutY="78.0" text="sweet" />
+                                    <ImageView fitHeight="58.0" fitWidth="41.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                                    <ImageView fitHeight="75.0" fitWidth="46.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@cake.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                              <AnchorPane layoutY="214.0" prefHeight="750.0" prefWidth="922.0" style="-fx-background-color: #647D8c;" styleClass="radiumiddle" stylesheets="@designhomepage.css">
+                                 <children>
+                                    <AnchorPane layoutX="435.0" layoutY="43.0" prefHeight="490.0" prefWidth="486.0">
+                                       <children>
+                                          <AnchorPane fx:id="item1" layoutY="35.0" onMouseClicked="#itemClicked" prefHeight="150.0" prefWidth="150.0" styleClass="iteamstyle" stylesheets="@designhomepage.css">
+                                             <children>
+                                                <ImageView fitHeight="86.0" fitWidth="95.0" layoutX="32.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@dinner%20(1).png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Label fx:id="itemname1" layoutX="14.0" layoutY="14.0" prefHeight="18.0" prefWidth="70.0" text="name:" />
+                                                <Label fx:id="itemcost1" layoutX="98.0" layoutY="14.0" prefHeight="18.0" prefWidth="34.0" text="\$" />
+                                                <Label fx:id="itemcalorie1" layoutX="18.0" layoutY="127.0" prefHeight="18.0" prefWidth="100.0" text="Caliorie:" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane fx:id="item2" layoutX="168.0" layoutY="35.0" onMouseClicked="#itemClicked" prefHeight="150.0" prefWidth="150.0" styleClass="iteamstyle" stylesheets="@designhomepage.css">
+                                             <children>
+                                                <ImageView fitHeight="86.0" fitWidth="95.0" layoutX="32.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@dinner%20(1).png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Label fx:id="itemcalorie2" layoutX="18.0" layoutY="127.0" prefHeight="18.0" prefWidth="100.0" text="Caliorie:" />
+                                                <Label fx:id="itemcost2" layoutX="101.0" layoutY="15.0" prefHeight="18.0" prefWidth="34.0" text="\$" />
+                                                <Label fx:id="itemname2" layoutX="14.0" layoutY="15.0" prefHeight="18.0" prefWidth="70.0" text="name:" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane fx:id="item3" layoutX="335.0" layoutY="35.0" onMouseClicked="#itemClicked" prefHeight="150.0" prefWidth="150.0" styleClass="iteamstyle" stylesheets="@designhomepage.css">
+                                             <children>
+                                                <ImageView fitHeight="86.0" fitWidth="95.0" layoutX="32.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@dinner%20(1).png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Label fx:id="itemname3" layoutX="14.0" layoutY="14.0" text="name:" />
+                                                <Label fx:id="itemcost3" layoutX="104.0" layoutY="14.0" text="\$" />
+                                                <Label fx:id="itemcalorie3" layoutX="18.0" layoutY="127.0" prefHeight="18.0" prefWidth="100.0" text="Caliorie:" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane fx:id="item4" layoutY="238.0" onMouseClicked="#itemClicked" prefHeight="150.0" prefWidth="150.0" styleClass="iteamstyle" stylesheets="@designhomepage.css">
+                                             <children>
+                                                <ImageView fitHeight="86.0" fitWidth="95.0" layoutX="32.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@dinner%20(1).png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Label fx:id="itemname4" layoutX="14.0" layoutY="14.0" text="name:" />
+                                                <Label fx:id="itemcost4" layoutX="104.0" layoutY="14.0" text="\$" />
+                                                <Label fx:id="itemcalorie4" layoutX="18.0" layoutY="127.0" prefHeight="18.0" prefWidth="100.0" text="Caliorie:" />
+                                             </children>
+                                          </AnchorPane>
+                                          <AnchorPane fx:id="item5" layoutX="168.0" layoutY="238.0" onMouseClicked="#itemClicked" prefHeight="150.0" prefWidth="150.0" styleClass="iteamstyle" stylesheets="@designhomepage.css">
+                                             <children>
+                                                <ImageView fitHeight="86.0" fitWidth="95.0" layoutX="32.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@dinner%20(1).png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Label fx:id="itemname5" layoutX="14.0" layoutY="14.0" text="name:" />
+                                                <Label fx:id="itemcost5" layoutX="104.0" layoutY="14.0" text="\$" />
+                                                <Label fx:id="itemcalorie5" layoutX="18.0" layoutY="127.0" prefHeight="18.0" prefWidth="100.0" text="Caliorie:" />
+                                             </children>
+                                          </AnchorPane>
+                                       </children>
+                                    </AnchorPane>
+                                    <TableView fx:id="itemstable" layoutX="21.0" layoutY="30.0" prefHeight="500.0" prefWidth="302.0">
+                                      <columns>
+                                        <TableColumn fx:id="tidc" prefWidth="75.0" text="TID" />
+                                        <TableColumn fx:id="costc" prefWidth="75.0" text="Cost" />
+                                          <TableColumn fx:id="caloryc" prefWidth="75.0" text="Calories" />
+                                          <TableColumn fx:id="quantitiyc" prefWidth="75.0" text="Quantity" />
+                                      </columns>
+                                    </TableView>
+                                    <Label layoutX="340.0" layoutY="6.0" prefHeight="26.0" prefWidth="52.0" text="Table:" textFill="WHITE">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font></Label>
+                                    <Button fx:id="plusbtn" layoutX="876.0" layoutY="14.0" mnemonicParsing="false" onAction="#plbtn" prefHeight="28.0" prefWidth="28.0" styleClass="ButtonPlusminus2" stylesheets="@designhomepage.css" text="+">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font></Button>
+                                    <Button fx:id="lessbtn" layoutX="826.0" layoutY="14.0" mnemonicParsing="false" onAction="#plbtn" prefHeight="28.0" prefWidth="28.0" styleClass="ButtonPlusminus2" stylesheets="@designhomepage.css" text="-">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </Button>
+                                    <ComboBox fx:id="tablescbox" layoutX="340.0" layoutY="30.0" onAction="#cmboxsel" prefWidth="150.0" promptText="Tables" />
+                                    <Button fx:id="deletebtn" layoutX="696.0" layoutY="14.0" mnemonicParsing="false" onAction="#delbtn" prefHeight="31.0" prefWidth="98.0" styleClass="ButtonPlusminus" stylesheets="@designhomepage.css" text="Delete Item" textAlignment="CENTER" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="historybtn" layoutX="14.0" layoutY="155.0" onMouseClicked="#gohistory" prefHeight="46.0" prefWidth="114.0" style="-fx-background-radius: 10;" styleClass="lablehome" stylesheets="@designhomepage.css">
+               <children>
+                  <Label layoutX="63.0" layoutY="15.0" text="History" />
+                  <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="52.0" styleClass="homeButton" stylesheets="@designhomepage.css" />
+                  <ImageView fitHeight="28.0" fitWidth="38.0" layoutX="12.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@787235.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="86.0" fitWidth="89.0" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@316741304_1850431091984088_2968029368833723444_n.png" />
+               </image>
+            </ImageView>
+            <AnchorPane fx:id="logout" layoutX="14.0" layoutY="553.0" onMouseClicked="#logoutbtn" prefHeight="5.0" prefWidth="94.0" style="-fx-background-radius: 10;" styleClass="lablehome" stylesheets="@designhomepage.css">
+               <children>
+                  <Label layoutX="45.0" layoutY="-1.0" prefHeight="34.0" prefWidth="52.0" text="Log out" />
+                  <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="34.0" styleClass="homeButton" stylesheets="@designhomepage.css" />
+                  <ImageView fitHeight="33.0" fitWidth="21.0" layoutX="4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@1250678.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Label fx:id="CIDnm" layoutX="14.0" layoutY="515.0" prefHeight="18.0" prefWidth="64.0" text="CID: " textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

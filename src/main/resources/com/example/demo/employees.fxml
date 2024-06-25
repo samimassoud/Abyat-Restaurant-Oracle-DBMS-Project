@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1100.0" style="-fx-background-color: #647D8c;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <AnchorPane layoutX="95.0" layoutY="65.0" prefHeight="523.0" prefWidth="991.0" styleClass="homemanager" stylesheets="@manager.css">
+         <children>
+            <Label alignment="CENTER" layoutX="370.0" layoutY="14.0" prefHeight="46.0" prefWidth="219.0" text="Employees" textFill="#647d8c">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Line endX="889.4000244140625" layoutX="101.0" layoutY="74.0" startX="-100.0" stroke="#647d8c" />
+            <TableView layoutX="14.0" layoutY="107.0" prefHeight="395.0" prefWidth="570.0">
+               <columns>
+                  <TableColumn prefWidth="88.800048828125" text="EID" />
+                  <TableColumn prefWidth="79.19998168945312" text="FName" />
+                  <TableColumn minWidth="0.0" prefWidth="33.60003662109375" text="Mint" />
+                  <TableColumn minWidth="0.0" prefWidth="74.4000244140625" text="LNmae" />
+                  <TableColumn minWidth="0.0" prefWidth="26.4000244140625" text="Sex" />
+                  <TableColumn prefWidth="72.0" text="Hire Date" />
+                  <TableColumn prefWidth="63.99993896484375" text="Salary" />
+                  <TableColumn prefWidth="48.0" text="Age" />
+                  <TableColumn prefWidth="77.5999755859375" text="Birthdate" />
+               </columns>
+            </TableView>
+            <Button layoutX="719.0" layoutY="243.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="127.0" styleClass="buttonsearch" stylesheets="@manager.css" text="Search" textFill="WHITE" />
+            <TextField layoutX="718.0" layoutY="129.0" prefHeight="28.0" prefWidth="164.0" promptText="EID" styleClass="textfildserch" stylesheets="@manager.css" />
+            <Button layoutX="808.0" layoutY="396.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="148.0" styleClass="buttonadddeletedit" stylesheets="@manager.css" text="Add" textFill="WHITE" />
+            <TextField layoutX="606.0" layoutY="179.0" prefHeight="28.0" prefWidth="104.0" promptText="FName" styleClass="textfildserch" stylesheets="@manager.css" />
+            <Label layoutX="644.0" layoutY="91.0" prefHeight="31.0" prefWidth="73.0" text="Search:">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Line endX="-123.3333740234375" endY="223.800048828125" layoutX="723.0" layoutY="300.0" startX="-123.3333740234375" startY="-227.50001525878906" stroke="#647d8c" />
+            <ImageView fitHeight="28.0" fitWidth="23.0" layoutX="613.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@magnifying-glass.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="131.0" fitWidth="142.0" layoutX="615.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@table.gif" />
+               </image>
+            </ImageView>
+            <TextField layoutX="731.0" layoutY="179.0" prefHeight="28.0" prefWidth="104.0" promptText="Mint" styleClass="textfildserch" stylesheets="@manager.css" />
+            <TextField layoutX="852.0" layoutY="179.0" prefHeight="28.0" prefWidth="104.0" promptText="LName" styleClass="textfildserch" stylesheets="@manager.css" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="18.0" layoutY="159.0" mnemonicParsing="false" onAction="#siginbuttononaction" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dinning-hall.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="5.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@316741304_1850431091984088_2968029368833723444_n.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="33.0" layoutY="209.0" text="Hall" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="907.0" layoutY="18.0" text="Hello mahmoud!" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="37.0" fitWidth="38.0" layoutX="852.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@account.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="18.0" layoutY="241.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+         <graphic>
+            <ImageView fitHeight="36.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@dining-table.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="27.0" layoutY="291.0" text="Table" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

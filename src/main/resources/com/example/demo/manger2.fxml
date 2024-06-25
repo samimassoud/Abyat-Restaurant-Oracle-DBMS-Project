@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="1100.0" style="-fx-background-color: #647D8c;">
+         <children>
+            <AnchorPane layoutX="94.0" layoutY="65.0" prefHeight="523.0" prefWidth="990.0" styleClass="homemanager" stylesheets="@manager.css" />
+            <Button layoutX="12.0" layoutY="130.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@63633.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="12.0" layoutY="210.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@63633.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="12.0" layoutY="280.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@63633.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="12.0" layoutY="350.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@63633.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="5.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@316741304_1850431091984088_2968029368833723444_n.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="18.0" layoutY="183.0" text="Kitchens" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="262.0" prefHeight="18.0" prefWidth="37.0" text="Halls" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="331.0" text="Tables" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="402.0" text="Suppliers" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="907.0" layoutY="18.0" text="Hello mahmoud!" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="37.0" fitWidth="38.0" layoutX="852.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@png-clipart-person-icon-computer-icons-user-profile-symbol-person-miscellaneous-monochrome-thumbnail.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="104.0" layoutY="75.0" prefHeight="523.0" prefWidth="990.0" styleClass="homemanager" stylesheets="@manager.css" />
+      <Button layoutX="22.0" layoutY="140.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@63633.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="22.0" layoutY="220.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@63633.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="22.0" layoutY="290.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@63633.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="22.0" layoutY="360.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="50.0" styleClass="Buttonmanager" stylesheets="@manager.css">
+         <graphic>
+            <ImageView fitHeight="27.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@63633.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="82.0" fitWidth="84.0" layoutX="15.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@316741304_1850431091984088_2968029368833723444_n.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="28.0" layoutY="193.0" text="Kitchens" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="272.0" prefHeight="18.0" prefWidth="37.0" text="Halls" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="341.0" text="Tables" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="412.0" text="Suppliers" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
